@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レベルの設定</title>
+    <style>
+        form,p {
+            margin: 1em;
+            border: solid 1px #ffffff;
+            padding: 0.7em;
+            border-radius: 10px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+    <h3>レベルの設定</h3>
+    <form action="game.html" method="GET">
+        <div>初期レベルを設定してください。（１～５）</div>
+        <input type="number" name="setLevel"  value="1" min="1" max="5">
+        <input type="submit" value="決定">
+    </form>
+    <h4>レベルの説明</h4>
+    <p class="describe">
+    レベルが上がるにつれてブロックの落下速度が上昇します。<br>
+    また、列を消去すると消した列の数だけレベルが上がります。<br>
+    レベルは１～８で下がることはありません。
+    </p>
+    <div class="links">
+    <h4 style="text-align: left"><a href="index.html">戻る</a></h4>
+    </div>
+</body>
+</html>

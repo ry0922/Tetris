@@ -1,0 +1,59 @@
+/* CSS for Tetris */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+	background-color: #000066;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+div#wrapper{
+	display:flex;/*要素を横並びにする*/
+	width: 288px;
+	margin: 3em auto;
+}
+div#next{
+	width: 100px;
+	background-color: white;
+}
+div#second{
+	width: 288px;
+	margin: 1em auto;
+}
+div#next{
+	width: 100px;
+}
+
+a{
+    color: #33ec74;
+  }
+.my-box {
+	font-size: 25px;
+    width: 300px; /* 幅 */
+    height: 60px; /* 高さ */
+    color: #FFF; /* 文字色 */
+    margin-left: 480px;
+}
+
+.reload{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+div.links {
+	height: 200px;
+	width: 200px;
+	height: 21vh;
+	display: flex;
+	align-items: flex-end;
+	display: grid;
+	place-items: end start;
+  }
+
+	canvas {
+		width: auto;
+		height: 600px;
+	}
